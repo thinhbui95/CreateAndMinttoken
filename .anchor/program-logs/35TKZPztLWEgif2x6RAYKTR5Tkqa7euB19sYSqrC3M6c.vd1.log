@@ -1,0 +1,50 @@
+Streaming transaction logs mentioning 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c. Confirmed commitment
+Transaction executed in slot 1721:
+  Signature: 3ypwcRTgYBRvkoMphE78sTCUQFGdzGM5ij3jeFBJpW7REpSkYCBEzGJTAMGnsf2ARQdoxC32A3fKi3UY6qs6KxG7
+  Status: Ok
+  Log Messages:
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c invoke [1]
+    Program log: Instruction: InitMint
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+    Program log: Instruction: InitializeMint2
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2828 of 192391 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program log: Init Token
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c consumed 13866 of 200000 compute units
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c success
+Transaction executed in slot 1722:
+  Signature: 4d8kAh3WWQXFXuvQyvePRNQzYEA6BnmeBov4dAqVcUnpMJbZP6R4KSk3C1RoJGHQizcvPdjKCxPEBqLEyGHyuBvx
+  Status: Ok
+  Log Messages:
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c invoke [1]
+    Program log: Instruction: MintTokenX
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: GetAccountDataSize
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1622 of 183470 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: InitializeImmutableOwner
+    Program log: Please upgrade to SPL Token 2022 for immutable owner support
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 176980 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program log: Instruction: InitializeAccount3
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4241 of 173098 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20293 of 188867 compute units
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+    Program log: Init Mint x
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+    Program log: Instruction: MintTo
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4538 of 161484 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c consumed 43728 of 200000 compute units
+    Program 35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c success

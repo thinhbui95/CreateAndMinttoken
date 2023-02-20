@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 use anchor_spl::{
     token::{Token, Mint, MintTo,TokenAccount, mint_to},
 };
-use anchor_spl::associated_token::{AssociatedToken, Create} ;
+use anchor_spl::associated_token::{AssociatedToken} ;
 
 declare_id!("35TKZPztLWEgif2x6RAYKTR5Tkqa7euB19sYSqrC3M6c");
 
@@ -11,7 +11,7 @@ pub mod vd1{
     use super::*;
 
 
-    pub fn init_mint(ctx: Context<InitMint>) -> Result<()> {
+    pub fn init_mint(_ctx: Context<InitMint>) -> Result<()> {
         msg!("Init Token");
         Ok(())
     }
